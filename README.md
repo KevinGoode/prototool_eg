@@ -1,7 +1,7 @@
 ## protocol_eg
 This project demonstrates the use of prototool which provides useful iteration around the protoc  
 tool. Simply enter in all the language types that need generating in prototool.yaml and on execution prototool  
-readfs this file and loops through all .proto files it can find and puts generated code in the cpp,and  python dirs.
+reads this file and loops through all .proto files it can find and puts generated code in the cpp and python dirs.
 
 ### Prerequisites
 1.) Recent version of Docker. Follow these instruction for fedora 29,30,31
