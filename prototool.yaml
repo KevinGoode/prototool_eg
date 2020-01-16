@@ -1,0 +1,20 @@
+protoc:
+  #Version of protoc must be conistent between clint and server
+  #version: 3.8.0
+  version: 3.5.0
+lint:
+  group: uber2
+
+generate:
+  plugins:
+    - name: cpp
+      output: ./cpp
+    - name: grpc-cpp
+      path: grpc_cpp_plugin
+      output: ./cpp
+    - name: python
+      output: ./python
+    - name: grpc-python
+      path: grpc_python_plugin
+      output: ./python
+ 
